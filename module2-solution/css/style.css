@@ -3,6 +3,11 @@
     box-sizing: border-box;
   }
   
+  body {
+    font-family: Georgia, serif	
+;
+  }
+
   /* Simple Responsive Framework. */
   .row {
     width: 100%;
