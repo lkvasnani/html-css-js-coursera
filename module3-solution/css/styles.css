@@ -1,0 +1,33 @@
+.navbar-header{
+    margin: 20px 10px 20px 0px;
+}
+
+.navbar-header a{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#nav-list{
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+}
+
+#nav-list a{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#menu-title{
+    margin-top: 120px;
+}
+
+#menu-options > div{
+    margin: 20px 5px 20px 5px;
+    background-color: rgb(141, 141, 141);
+}
+
+#menu-options > div > h3{ /* Title of each menu*/
+    text-align: center;
+    font-style: italic;
+}
+
