@@ -7,11 +7,6 @@
     font-weight: bold;
 }
 
-#nav-list{
-    /* margin-top: 5px;
-    margin-bottom: 5px; */
-}
-
 #nav-list a{
     text-align: center;
     font-size: 1.5em;
@@ -21,13 +16,35 @@
     margin-top: 120px;
 }
 
-#menu-options > div{
-    margin: 20px 5px 20px 5px;
+#menu-options > section > div{
+    padding: 20px 10px 20px 10px;
     background-color: rgb(141, 141, 141);
 }
 
-#menu-options > div > h3{ /* Title of each menu*/
+#menu-options > section > div > h3{ /* Title of each menu*/
     text-align: center;
     font-style: italic;
 }
 
+#menu-options > section > div > div > p{ /* Description of each menu*/
+    padding: 10px 5px 10px 5px;
+}
+
+#menu-options > section > div > div { /* Link to top of each menu*/
+    font-size: 1.2em;
+    padding-bottom: 5px;
+}
+
+/********** Extra small devices only **********/
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    #menu-options > section {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    #menu-options > section > div{
+        margin-bottom: 20px;
+    }
+}
